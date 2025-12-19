@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ" android:textSize="24sp" android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText android:id="@+id/regUser" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Tên đăng nhập" />
+
+    <EditText android:id="@+id/regPass" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Mật khẩu" android:inputType="textPassword" />
+
+    <EditText android:id="@+id/regFullname" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Họ và tên" />
+
+    <Button android:id="@+id/btnConfirmRegister" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Xác nhận Đăng ký" android:layout_marginTop="20dp" />
+</LinearLayout>
